@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JS Game Challenge</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <div>
+      <h1>Barbarians vs. Goblins Basketball</h1>
+      <div id="reset-container">
+        <button id="reset-button">RESET</button><br />
+        NUMBER OF RESETS: <span id="num-resets">0</span>
+      </div>
+      <div class="clear"></div>
+      <div class="left">
+        <h2>Barbarians</h2>
+        <div class="goals">
+          SHOTS TAKEN: <span id="barb-numshots">0</span><br />
+          GOALS: <span id="barb-numgoals">0</span>
+          <div class="barb-logo">
+            <img src="./assets/images/Barbarians.jpg" />
+          </div>
+        </div>
+        <div>
+          <button id="barb-shoot-button">SHOOT</button>
+        </div>
+      </div>
+      <div class="right">
+        <h2>Goblins</h2>
+        <div class="goals">
+          SHOTS TAKEN: <span id="gob-numshots">0</span><br />
+          GOALS: <span id="gob-numgoals">0</span>
+          <div class="gob-logo"><img src="./assets/images/goblins.jpg" /></div>
+        </div>
+        <div>
+          <button id="gob-shoot-button">SHOOT</button>
+        </div>
+      </div>
+      <div class="clear"></div>
+    </div>
+    <script src="./assets/javascript/game.js"></script>
+  </body>
+</html>

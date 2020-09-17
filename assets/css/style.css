@@ -1,0 +1,28 @@
+.hide {
+  display: none;
+}
+.left {
+  float: left;
+  height: 250px;
+  width: 300px;
+  border: 2px solid black;
+  background-color: darkslategrey;
+}
+img {
+  height: 120px;
+  width: 200px;
+}
+.right {
+  float: right;
+  height: 250px;
+  width: 300px;
+  border: 2px solid black;
+  background-color: greenyellow;
+}
+.clear {
+  clear: both;
+}
+#reset-container,
+h1 {
+  text-align: center;
+}
