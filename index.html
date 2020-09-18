@@ -6,14 +6,17 @@
   </head>
   <body>
     <div>
-      <h1>Barbarians vs. Goblins Basketball</h1>
+      <h1>
+        Barbarians vs. Goblins<br />
+        Soccer Game
+      </h1>
       <div id="reset-container">
         <button id="reset-button">RESET</button><br />
         NUMBER OF RESETS: <span id="num-resets">0</span>
       </div>
       <div class="clear"></div>
       <div class="left">
-        <h2>Barbarians</h2>
+        <h2>Highland Barbarians</h2>
         <div class="goals">
           SHOTS TAKEN: <span id="barb-numshots">0</span><br />
           GOALS: <span id="barb-numgoals">0</span>
@@ -26,7 +29,7 @@
         </div>
       </div>
       <div class="right">
-        <h2>Goblins</h2>
+        <h2>Mirebog Goblins</h2>
         <div class="goals">
           SHOTS TAKEN: <span id="gob-numshots">0</span><br />
           GOALS: <span id="gob-numgoals">0</span>
@@ -38,6 +41,13 @@
       </div>
       <div class="clear"></div>
     </div>
+
     <script src="./assets/javascript/game.js"></script>
+
+    <audio id="sounds" loop="false">
+      <audio id="barb-laugh" src="./assets/sound/barbarian.wav"></audio>
+      <audio id="gob-laugh" src="./assets/sound/goblin.wav"></audio>
+      <audio id="draw" src="./assets/sound/draw.wav"></audio>
+    </audio>
   </body>
 </html>
